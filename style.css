@@ -1,0 +1,109 @@
+
+
+body{
+    background-image:linear-gradient(rgb(0, 162, 255) 0%, rgb(0, 195, 255) 30%, rgb(0, 225, 255) 70%);
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+}
+  
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    text-align: center;  
+}
+
+.parrafos{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 3px;
+    border-color: white;
+    border-left: 20px;
+    border-right: 20px;
+    border-style:solid;
+    border-radius:10px;
+}   
+
+
+#formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    max-width: 100%;
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    padding-right: 0px;
+
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:#000;
+}
+
+
+button[type="submit"] {
+    background-color: rgb(4, 71, 197);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#respuesta-confirmacion {
+    font-weight: bold;
+    color: #007bff;
+
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .parrafos{ background-color:rgb(4, 71, 197);
+    
+        }
+    }
+    
+@media (min-width:1200px) {
+    .parrafos{ background-color:rgb(4, 71, 197);
+    
+        }
+    }
+
+@media (max-width:720px) {
+    .parrafos{ background-color: green;
+    
+        }
+    }
+    @media (max-width:420px) {
+        .parrafos{ background-color: red;
+        
+        }
+    }

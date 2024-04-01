@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><u>Mi perfil</u></h1>
+    
+    </header>
+    
+    <section class ="parrafos"> 
+        <h1> Sobre mi</h1>
+
+        <p>Mi nombre es <strong>Jesus Silva</strong>, tengo 24 años de edad y estoy cursando la carrera de T.S.U. 
+            En Informática. Me encanta la programación, los deportes y la música. Este año,
+            si todo, va bien me graduaré.</p>
+
+    </section>
+    
+    <section class="parrafos">
+        <h1>Experiencia</h1>
+        <p>Durante los últimos años, he tenido el privilegio de trabajar en una empresa de alquiler de compresores
+            de aires, marketing e informática. 
+            Mi papel allí ha sido un poco de administrativo, creativo y computacional, lo que me ha permitido 
+            combinar mis habilidades organizativas con mi pasión por el diseño y programacion.</p>
+    </section>
+
+    <section class="parrafos">
+        <h1>Educación</h1>
+        <p>Mi recorrido educativo ha sido una combinación de aprendizaje formal y práctico. 
+            Aquí está un breve resumen:</p>
+
+        
+            <ul>
+              <li>
+                <strong>Liceo Nacional “Cajigal”:</strong>
+                 Obtuve mi título de bachiller en ciencias en esta institución.
+              </li> <br> 
+
+              <li>
+                <strong>Universidad de Oriente (UDO):</strong>
+                Asistí a la UDO durante dos semestres como estudiante.
+                Aunque breve, mi tiempo en la universidad me proporcionó 
+                una comprensión fundamental de los principios eléctricos y la resolución de 
+                problemas en el campo de la ingeniería eléctrica.
+              </li>  
+            </ul>
+                
+        
+        
+    </section>
+
+    <form id="formulario-contacto" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button id="send" type="submit">Enviar</button>
+    </form>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
